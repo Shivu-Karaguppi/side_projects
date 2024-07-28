@@ -61,5 +61,4 @@ enterNameclick.send_keys(Keys.ENTER)
 time.sleep(3)
 messageButton= d.find_element(By.XPATH,"//*[contains(text(),'Message') and @role='button']")
 time.sleep(3)
-# }
 d.quit()
